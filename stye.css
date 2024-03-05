@@ -1,0 +1,37 @@
+.logo{
+    animation: logo;
+    animation-duration: 3s;
+}
+@keyframes logo {
+    0%{
+        opacity: 0;
+        transform: translateX(150px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.home-content{
+    animation-name: content;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+@keyframes content {
+    0%{
+        opacity: 0;
+        transform:translateX(100px);
+    }   
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    } 
+}
+
+.img{
+    
+}
+.img:hover::after{
+    border-radius: 200px;
+}
